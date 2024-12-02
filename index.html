@@ -8,11 +8,16 @@
     <script>
       console.log("Inside from the html file");
     </script>
-    <script src="js/dom.js"></script>
   </head>
   <body>
     <header>
       <h1>This is the winter tour of DOM</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+        praesentium vel dolore ducimus nulla doloremque, pariatur
+        necessitatibus? Nostrum magni repellat, tenetur officia quasi facilis,
+        illum dicta, enim aliquam pariatur cum!
+      </p>
     </header>
     <main>
       <h1>This is the List of some Islamic Song Band</h1>
@@ -22,6 +27,27 @@
         <li>Panjeri</li>
         <li>Disari</li>
       </ul>
+      <section>
+        <h1 id="fruits-title">Fruits</h1>
+        <ul>
+          <li>Apple</li>
+          <li>Banna</li>
+          <li>Orange</li>
+          <li>Pinapple</li>
+          <li>Papaya</li>
+        </ul>
+      </section>
+      <section>
+        <h1>The places</h1>
+        <ul>
+          <li class="im-places">Dhaka</li>
+          <li class="im-places">Chittagon</li>
+          <li class="im-places">Rajshahi</li>
+          <li>Khulna</li>
+          <li>Borisal</li>
+          <li>Shylet</li>
+        </ul>
+      </section>
     </main>
     <script>
       const collection = document.getElementsByTagName("h1");
@@ -35,5 +61,6 @@
         console.log(li.innerText);
       }
     </script>
+    <script src="js/dom.js"></script>
   </body>
 </html>

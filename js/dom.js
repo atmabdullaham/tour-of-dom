@@ -1,8 +1,8 @@
-// console.log(document.getElementsByTagName("h1"
-// ));
+// console.log(document.
+// console.log(document.getElementById("fruits-title").innerText)
+const places = document.getElementsByClassName("im-places");
+console.log(places)
+for (const place of places) {
 
-const liCollection = document.getElementsByTagName("li");
-console.log(liCollection)
-for (let i = 0; i < liCollection.length; i++) {
- console.log(liCollection[i])
+ console.log(place.innerText);
 }
